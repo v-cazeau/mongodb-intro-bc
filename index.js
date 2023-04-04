@@ -26,7 +26,7 @@ const addFruit = async () => {
     console.log(error)    
   } finally {
     await client.close()
-  }
+  } 
 };
 
 addFruit()
